@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header{
+    width: 200%;
+    height: 60px;
+    background: grey;
+    transition: 1s;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+    padding: 10px 24px; 
+}
+
+input{
+    width: 70px;
+    height: 20px;
+    position: relative;
+    left: 30px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100px;
+}
+
+input::placeholder{
+    position: relative;
+    left: 20px;
+}
+
+.iconSearch{
+    position: absolute;
+    right: 0;
+    padding: 5px;
+    right: 30px;
+}
+
+.input {
+    height: 36px;
+    padding: 0 16px;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    width: 100%;
+}
+
+
+
+
+

@@ -1,0 +1,17 @@
+*{
+    padding:0;
+    margin:0;
+}
+h4{
+    font-size:15px;
+    position:relative;
+    left:50px;
+    bottom:32px;
+}
+.b3{
+    background-color: grey;
+    width:230px;
+}
+img{
+    border-radius: 50px;
+}
